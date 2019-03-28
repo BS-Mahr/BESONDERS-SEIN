@@ -1,3 +1,22 @@
+body {
+  border-bottom: 50vh solid #333;
+  border-top: 50vh solid #eee;
+  display: flex;
+  height: 0;
+}
+
 h1 {
-    text-align: center;
+  border: 1vw solid #fff;
+  color: #fff;
+  font-size: 10vw;
+  margin: auto;
+  mix-blend-mode: difference;
+  padding: 0 5vw;
+  text-transform: uppercase;
+  transform: translate(0, -50%);
+  transition: box-shadow 0.4s;
+  
+  &:hover {
+    box-shadow: 0 0 0 50vw #555;
+  }
 }
