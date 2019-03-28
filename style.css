@@ -4,7 +4,6 @@ body {
   display: flex;
   height: 0;
 }
-
 h1 {
   border: 1vw solid #fff;
   color: #fff;
@@ -14,9 +13,4 @@ h1 {
   padding: 0 5vw;
   text-transform: uppercase;
   transform: translate(0, -50%);
-  transition: box-shadow 0.4s;
-  
-  &:hover {
-    box-shadow: 0 0 0 50vw #555;
-  }
 }
